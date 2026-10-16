@@ -100,7 +100,7 @@ if (TARGET_WEBOS)
     set(CMAKE_THREAD_LIBS_INIT "-lpthread" CACHE INTERNAL "webOS pthread")
     set(OS_LINUX TRUE)
 
-    set(WEBOS_APPINFO_ID "com.aurora.gamestream")
+    set(WEBOS_APPINFO_ID "com.aurora.gamestream.test")
     set(CMAKE_INSTALL_RPATH "$ORIGIN/lib/backports:$ORIGIN/../lib/backports:$ORIGIN")
 elseif (TARGET_STEAMLINK)
     set(OS_LINUX TRUE)
